@@ -1,0 +1,107 @@
+
+.box_produits {
+    float: left;
+    width: 30%;
+    height: 200px;
+    margin: 15px;
+    border: 1px #eeeeee solid;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.name_produit {
+    text-transform: uppercase;
+    padding: 10px;
+    width: 60%;
+    background: #eee;
+    margin: 5px;
+    float: left;
+    display: inline;
+}
+.prix_produit {
+    text-transform: uppercase;
+    padding: 10px;
+    width: 27%;
+    background: orange;
+    margin: 5px;
+    float: left;
+    display: inline;
+}
+.prix_nature {
+    text-transform: uppercase;
+    padding: 10px;
+    width: 93%;
+    background: #eee;
+    margin: 5px;
+    float: left;
+    display: inline;
+}
+
+.qnt_prod {
+    text-transform: uppercase;
+    padding: 10px;
+    width: 40%;
+    background: #eee;
+    margin: 5px;
+    float: left;
+    display: inline;
+}
+
+.qnt_crit {
+    text-transform: uppercase;
+    padding: 10px;
+    width: 47%;
+    background:pink;
+    margin: 5px;
+    float: left;
+    display: inline;
+}
+
+
+.critique {
+    border-color: red;
+    border-width: 1px;
+    animation: border;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes border {
+    0%{
+        border-color: red;
+    }
+    10%{
+        border-color: white;
+    }
+    20%{
+        border-color: red;
+    }
+     30%{
+        border-color: white;
+    }
+    40%{
+        border-color: red;
+    }
+     50%{
+        border-color: white;
+    }
+    60%{
+        border-color: red;
+    }
+     70%{
+        border-color: white;
+    }
+    80%{
+        border-color: red;
+    }
+     90%{
+        border-color: white;
+    }
+    100%{
+        border-color: red;
+    }
+}

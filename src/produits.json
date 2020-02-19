@@ -1,0 +1,60 @@
+{
+    "Fournisseur" : "MG",
+    "datebl" : "20-04-2020",
+    "active" : true,
+    "produits" : [
+      {
+        "name" : "randa",
+        "nature" : "pate",
+        "prix" : 2.500,
+        "etat": 1,
+        "nbr_prod":2,
+        "nbr_critique":3
+
+        
+      },
+      {
+        "name" : "saida",
+        "nature" : "biscuit",
+        "prix" : 1.500,
+        "etat": 1,
+        "nbr_prod":12,
+        "nbr_critique":3
+      },
+      {
+        "name" : "délice",
+        "nature" : "lait",
+        "prix" : 1.100,
+        "etat": 0,
+        "nbr_prod":12,
+        "nbr_critique":3
+      },
+      {
+        "name" : "randa",
+        "nature" : "pate",
+        "prix" : 2.500,
+        "etat": 1,
+        "nbr_prod":2,
+        "nbr_critique":6
+
+        
+      },
+      {
+        "name" : "saida",
+        "nature" : "biscuit",
+        "prix" : 1.500,
+        "etat": 1,
+        "nbr_prod":12,
+        "nbr_critique":3
+      },
+      {
+        "name" : "délice",
+        "nature" : "lait",
+        "prix" : 1.100,
+        "etat": 0,
+        "nbr_prod":12,
+        "nbr_critique":3
+      }
+    ]
+  }
+  
